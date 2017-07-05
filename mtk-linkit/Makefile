@@ -25,7 +25,7 @@ define Package/mtk-linkit
 	+kmod-sdhci-mt7620 +kmod-usb-storage \
 	+kmod-video-core +kmod-video-uvc \
 	+kmod-sound-core +kmod-sound-mtk +madplay-alsa +alsa-utils \
-	+mtk-sdk-wifi +tcpdump-mini
+	+mtk-sdk-wifi +tcpdump-mini +ntpd +ntpdate
 
   CATEGORY:=Base system
   DEFAULT:=y
